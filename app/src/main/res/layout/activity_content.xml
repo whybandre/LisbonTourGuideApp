@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.lisbontourguideapp.PlaceContentDescriptionActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.lisbontourguideapp.PlaceContentDescriptionActivity">
+
+    <ImageView
+        android:id="@+id/image_picture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_content_img_height_250"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/text_neighborhood"
+        android:layout_margin="@dimen/activity_content_margin_18"
+        android:textSize="@dimen/activity_content_text_size_bairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_place"
+        android:layout_margin="@dimen/activity_content_margin_18"
+        android:textSize="@dimen/activity_content_text_size_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+            android:id="@+id/text_content"
+            android:layout_margin="@dimen/activity_content_margin_18"
+            android:textSize="@dimen/activity_content_margin_18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
+

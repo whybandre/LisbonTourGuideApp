@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/text_bar_color</item>
+    </style>
+
+
+    <style name="ImageListItem">
+        <item name="android:layout_width">@dimen/sq_width_height_180</item>
+        <item name="android:layout_height">@dimen/sq_width_height_180</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+
+    <style name="PlaceTextViewListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/sq_text_height</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/placeholders_place</item>
+    </style>
+
+    <style name="NeighborhoodTextViewListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/sq_text_height</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_below">@id/place_text_view</item>
+        <item name="android:text">@string/placeholders_neighborhood</item>
+
+    </style>
+
+
+</resources>

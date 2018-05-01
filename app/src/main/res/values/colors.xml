@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB321A</color>
+    <color name="colorPrimaryDark">#FB321A</color>
+    <color name="colorAccent">#B0BEC5</color>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#FF8A0C</color>
+
+    <!-- Text color of the app bar (shown in the app bar) -->
+    <color name="text_bar_color">#f2f2f2</color>
+
+    <!-- Text color for text item -->
+    <color name="text_color_list_item">#FFF7DA</color>
+
+    <!-- MENU COLORS -->
+    <!-- Background color for the Drink category -->
+    <color name="category_drink">#C3C8FB</color>
+
+    <!-- Background color for the Parks category -->
+    <color name="category_parks">#00CFB4</color>
+
+    <!-- Background color for the Arts and Culture category -->
+    <color name="category_arts">#FFB402</color>
+
+    <!-- Background color for the Eat category -->
+    <color name="category_eat">#FFB3A9</color>
+
+
+</resources>

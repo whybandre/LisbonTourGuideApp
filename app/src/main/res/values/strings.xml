@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Lisbon Tour Guide App</string>
+    <string name="contentActivity_name">Guide Information</string>
+
+    //Menu
+    <string name="menu_park">Park</string>
+    <string name="menu_culture">Arts &amp; Culture</string>
+    <string name="menu_eat">Eat</string>
+    <string name="menu_drink">Drink</string>
+
+    //Neighborhood
+    <string name="neighborhood_campo_de_ourique">Campo de Ourique</string>
+    <string name="neighborhood_alcantara">Alcântara</string>
+    <string name="neighborhood_graça">Graça</string>
+    <string name="neighborhood_intendente_anjos">Intendente &amp; Anjos</string>
+    <string name="neighborhood_bairro_alto">Bairro Alto</string>
+
+
+    //Park
+    <string name="park_jardim_da_estrela">Jardim da Estrela</string>
+    <string name="jardim_da_estrela">The real name of the garden is Guerra Junqueiro Garden, but everyone calls it Jardim da Estrela. It is the relaxing spot of Campo de Ourique and other neighborhoods (like Lapa and Estrela). Sunny in winter and fresh in the summer, you can just relax or visit the markets that take place on weekends.</string>
+
+    <string name="park_feira_popular">Feira Popular</string>
+    <string name="feira_popular">Stop by this epic mini tivoli, which will give you associations to Banksys theme park Dismaland located on the opposite side of the Alcantara Train Station. Take a ride in the merry go round, have a game of table football - and eat a snack or two before heading off for a night out. 100% fun.</string>
+
+    <string name="park_miradouro_graça">Miradouro Sophia de Mello Breyner Andresen</string>
+    <string name="miradouro_sophia_de_mello_breyner_andresen">Right up the street from our studio is Miradouro da Graça, one of the most beautiful pine-shaded viewpoints overlooking the city of Lisbon. Officially named Miradouro Sofia de Mello Breyner Andresen, it got its name from Portuguese poet who spent many of her days admiring Lisbon from this spot. It is a favourite hangout for residents and visitors alike, thanks to its open-air café and fantastic views.</string>
+
+    <string name="park_miradouro_senhora_do_monte">Miradouro Senhora do Monte</string>
+    <string name="miradouro_senhora_do_monte">Lisbon’s best kept secret at Graça’s highest of the high, Miradouro da Senhora do Monte offers - hands down - the most beautiful panoramic view of Lisbon. Come for the relaxed vibe and the best views of the castle on the hill opposite and marvel at the sun setting over the city. It’s only a short walk from the iconic tram 28 stop on Rua da Graça.</string>
+
+    <string name="park_jardim_do_torel">Jardim do Torel</string>
+    <string name="jardim_do_torel">Up the very top of the Santana hill, where the neighborhood finds its limit, almost meeting the posh Avenida da Liberdade, sits one of the most enjoyable and unknown parks of Lisbon. Blindsided by the city's many other beautiful viewpoints, it's still relatively tourist free and features one of the best natural landscapes right in the heart of town. It's priceless to exercise or just lay at this grass while overlooking 180° of the city.</string>
+
+    <string name="park_martires_da_patria">Campo Martires da Patria</string>
+    <string name="campo_martires_da_patria">The grand garden of Campo Mártires da Pátria, on top of the hill. A nice little corner in a peaceful garden overlooking ducks and peacocks (running freely!) that makes you forget you're in a busy intersection of the city.</string>
+
+
+    //Art and Culture
+    <string name="art_casa_fernando_pessoa">Casa Fernando Pessoa</string>
+    <string name="casa_fernando_pessoa">The house where poet Fernando Pessoa lived the last years of his life is now a cultural center, where special events such as temporary exhibitions and poetry readings take place. You can also visit the library dedicated to the poet and rooms with personal objects. At the back of the cultural center there is a relaxing and fresh garden.</string>
+
+    <string name="art_28_tram">Tram 28</string>
+    <string name="tram_28">The best way to get to Campo de Ourique is by tram. Climb from the center, enjoy the ride 'til the last stop (Cemitério dos Prazeres) and then get lost in the grid of Campo the Ourique.</string>
+
+    <string name="art_ler_devagar">Ler Devagar</string>
+    <string name="ler_devagar">This enormous bookstore is worth a visit if in LXFACTORY. The store has a cute café where you can sit and dive into a book while sipping on a glass of rosé. You can also work from there and take a meeting - the wifi is great, the coffee is black and it is nice and quiet. Atm there is an interactive installation and there is always something going on in the space. You will find new and old books, music of all kinds and childrens' fold out books.</string>
+
+    <string name="art_lx_factory">Lx Factory</string>
+    <string name="px_factory">A renovated manufacturing complex that has become one of Lisbon’s hippest spots, serving both as a co-working place and a stage for fashion, arts, architecture, and music.</string>
+
+    <string name="art_village_underground">Village Underground</string>
+    <string name="village_underground">Under the bridge you will find a very cool and laidback co-working space which you can rent on an hourly, day-to-day or Monthly basis as well as a café with a view. It is build of containers and old charming busses with the capacity for 30 to 40 people. The day we visited they were doing a live streaming dj event from their sound studio. It seems like there is always a good reason to stop by. Pssst great cheese board and banana toffee on the menu!</string>
+
+    <string name="art_carpe_diem_art_and_research">Carpe Diem Art and Research</string>
+    <string name="carpe_diem_art_and_research">Carpe Diem Art and Research is a center for contemporary art based in a seventeenth-century palace. In addition to an eclectic exhibition program, consisting of national and international artists, CDAP also promotes parallel activities such as conferences, masterclasses, talks with artists, an educational program, workshops and guided tours targeted to different audiences.</string>
+
+
+    //Eat and Restaurants
+    <string name="eat_a_cabreira">A Cabreira</string>
+    <string name="a_cabreira">Your go to spot for a typical Portuguese breakfast, lunch and snack break. An icon in the heart of Graça, with a lot to offer from pastries to typical Portuguese dishes that you can have for less than 5€! Whatever you do, don’t leave the place without having a warm and mouthwatering Pastel de Nata.</string>
+
+    <string name="eat_the_insolito">The Insolito</string>
+    <string name="the_insolito">Get surprised with this magnificent terrace bar and restaurant (only opened for dinner from 18:00h), facing one of the city is most beautiful lookout points it provides one the most astonishing views of Lisbon. Don't forget to take the old elevator to the top and get surprised with the ambience, the décor, its rituals and menu. This place is unusual, hence the name *Insólito*</string>
+
+    <string name="eat_the_decadente">The Decadente</string>
+    <string name="the_decadente">Located in the "The Independent Hostel and Suites" building, this restaurant is the meeting point for locals and travelers. Great place to taste portuguese gastronomy, but with a modern approach. In this trendy place you can lunch, dinner, brunch, or simply have a drink.</string>
+
+    <string name="eat_tasca_da_esquina">Tasca da Esquina</string>
+    <string name="tasca_da_esquina">After years as a chef in many restaurants, which made him one of the Lisbon’s most acclaimed chefs, Vitor Sobral opened his own establishment in Campo de Ourique. This is a place where you can taste the Chef’s own interpretation of the great portuguese “petiscos”. Also in the neibourhood you can try the other project from the same team, the “Peixaria da Esquina” totally devoted to fish and the relation between portuguese gastronomy and the ocean.</string>
+
+    <string name="eat_hikidashi">Hikidashi</string>
+    <string name="hikidashi">It is small and just like a Japanese tavern in style, where everything happens around a wooden giant table. You can order the usual sushi and sashimi, or you can order meat, fish and vegetables grilled on the robata, a typical Japanese grill. Please note that making a reservation is absolutely necessary.</string>
+
+    <string name="eat_mercado_de_campo_de_ourique">Mercado de Campo de Ourique</string>
+    <string name="mercado_de_campo_de_ourique">This market in the center of Campo de Ourique suffered a major remodeling in 2013, starting a modernization which resulted in an offer of new services, shops and restaurants not only to the market and but also for the entire neighborhood. Today it functions both as the new center of activity in the neighborhood and as a popular tourist destination, either for resting or for a meal. The secret of being so popular among locals and tourists is the human scale and a good mix between traditional market counters and new food Businesses.</string>
+
+    //Drink and Bars
+    <string name="drink_majong">Majong</string>
+    <string name="majong">It’s one of the oldest bars in Bairro Alto and it’s always a good option for a drink, a casual conversation or just to sit and enjoy the street view by the large windows. The music is eclectic and you’ll probably find some actor or TV personality sitting by your side.</string>
+
+    <string name="drink_clube_royale">Clube Royale</string>
+    <string name="clube_royale">In the bohemian environment of Clube Royale, one can enjoy the swing, jazz and classical soirées, through dancing sessions and live music. With an atmosphere of cabaret that brings the spirit of the old Lisbon, this café-bar offers an eclectic and entertaining program. It is worth experience the burlesque shows, the evenings of live music, the dancing matinées, among others. The café offers meals for lunch and dinner, even during the shows. The space also includes a store-bazaar under the brand Lola Bala, focused on national vintage products and customizing clothes. It is open from Tuesday to Saturday from 10 a.m. to 1 p.m. Thursdays and Wednesdays till 8 p.m.</string>
+
+    <string name="drink_casa_independente">Casa Independente</string>
+    <string name="casa_independente">The nightlife epicenter of the neighborhood, quickly became an institution and single handedly made Intendente a new district for going out. It's host to the the coolest music happening in the city, great at confirming emerging talent and one of the main supporters of the so-called Lisbon Zouk Bass or our new generation of psychedelic/surf rockers. And when the locals aren't available they go far at booking the best from overseas.</string>
+
+    <string name="drink_damas">Damas</string>
+    <string name="damas">Once a bakery, Damas Bar is now a fun and versatile space where you can go for an original meal, a glass of wine with friends or where you can go for alternative concerts. The restaurant menu features a few dishes of the day, and it offers vegetarian and vegan options. All in all, Damas Bar is your go to place if you’re in the mood for a good time.</string>
+
+    <string name="drink_aquele_lugar_em_alcantara">Aquele Lugar em Alcantara</string>
+    <string name="aquele_lugar_em_alcantara">Every day there is a new menu and no one really knows what that menu is. You just tell the waiter what you dont like and they cook around it and "puff" magic comes out of the kitchen on a plate just for you. Aquele Lugar  has existed for 5 years and the art exhibition changes a few times a months. When the exhibition changes, most often the interior and the colours on the walls changes as well - and you have to look for the art because it is nicely integrated in the interior. Everything about this place seems very random and very passionate. Love.</string>
+
+    <string name="drink_mob">MOB</string>
+    <string name="mob">A fierce activist spot relying on its thematic nights that include screenings and dancing all night through. Features a big collection of books on the issues of modern capitalism, women's rights and social struggles.</string>
+
+    //List Item Placeholders
+    <string name="placeholders_place">Miradouro</string>
+    <string name="placeholders_neighborhood">Bairro</string>
+
+
+    </resources>

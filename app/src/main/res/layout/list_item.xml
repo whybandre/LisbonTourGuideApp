@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sq_width_height_180"
+    android:background="@color/text_color_list_item"
+    android:minHeight="@dimen/sq_width_height_180">
+
+    <ImageView
+        style="@style/ImageListItem"
+        android:id="@+id/image" />
+
+    <RelativeLayout
+
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sq_width_height_180"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/image"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left">
+
+        <TextView
+            style="@style/PlaceTextViewListItem"
+            android:id="@+id/place_text_view"/>
+
+        <TextView
+            style="@style/NeighborhoodTextViewListItem"
+            android:id="@+id/neighborhood_text_view" />
+
+    </RelativeLayout>
+</RelativeLayout>
