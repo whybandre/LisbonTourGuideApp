@@ -35,7 +35,7 @@ public class EatFragment extends Fragment implements ListView.OnItemClickListene
         places.add(new Guide(R.string.eat_the_decadente, R.string.neighborhood_bairro_alto,
                 R.drawable.picture__the_decadente));
         places.add(new Guide(R.string.eat_the_insolito, R.string.neighborhood_bairro_alto,
-                R.drawable.picture_the_insolito));
+                R.drawable.picture__the_insolito));
         places.add(new Guide(R.string.eat_tasca_da_esquina, R.string.neighborhood_campo_de_ourique,
                 R.drawable.picture__tasca_da_esquina));
         places.add(new Guide(R.string.eat_hikidashi, R.string.neighborhood_campo_de_ourique,
