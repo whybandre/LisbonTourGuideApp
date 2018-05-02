@@ -40,6 +40,17 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
+/**
+            You don't need to create another View object, you could use convertViewdirectly as follows:
+
+            if(convertView == null){
+                The reason is simple, both references are pointing to the same object.
+
+                        You can have more information about how references work at this link.
+ https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83
+            */
+
+
         }
 
         // Get the {@link Guide} object located at this position in the list
@@ -82,6 +93,18 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
         return listItemView;
     }
 
+
+    /**
+     * For next projects, if you want to improve your lists you can implement the ViewHolder pattern in your adapter.
+
+     The reason is that if your code call findViewByid() frequently during the ListView scrolling, this will slow down its performance.
+
+     Creating a ViewHolder the objects will only be instantiated once, since every time we call thegetView() method, the ViewHolder created in the first call will be reused.
+
+     You can have more information in the Oficial Android Documentation
+
+     https://developer.android.com/training/improving-layouts/smooth-scrolling
+     */
 
 
 }

@@ -10,9 +10,6 @@ import android.widget.TextView;
 
 public class PlaceContentDescriptionActivity extends AppCompatActivity {
 
-
-
-
     // UI Components
     private TextView mTextNeighborhood;
     private TextView mTextPlace;
@@ -25,8 +22,6 @@ public class PlaceContentDescriptionActivity extends AppCompatActivity {
     private String mNeighborhood;
     private String mPlace;
     private String mPictureResource;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,14 +44,11 @@ public class PlaceContentDescriptionActivity extends AppCompatActivity {
         mImageArtwork = (ImageView) findViewById(R.id.image_picture);
         mTextContent = (TextView) findViewById(R.id.text_content);
 
-
         // Get artwork resource name
         getPictureResource();
 
         // Display Media Details and Image
         displayMediaDetails();
-
-
     }
 
     /**
@@ -71,8 +63,6 @@ public class PlaceContentDescriptionActivity extends AppCompatActivity {
         mPictureResource = mPictureResource.replaceAll(" ", "_");
     }
 
-
-
     /**
      * This method displays Guide details - name, neighborhood name, picture and detail information
      */
@@ -80,7 +70,6 @@ public class PlaceContentDescriptionActivity extends AppCompatActivity {
 
         mTextNeighborhood.setText(mNeighborhood);
         mTextPlace.setText(mPlace);
-
 
         //
         int resId = getResources().getIdentifier(mPictureResource, "drawable", getPackageName());
@@ -91,8 +80,6 @@ public class PlaceContentDescriptionActivity extends AppCompatActivity {
         //Eg Estrela Garden -> estrela_garden -> R.string.estrela_garden
         int contentResource = getResources().getIdentifier(mPlace.replaceAll(" ", "_").replace("'", "").toLowerCase(),"string", getPackageName());
         mTextContent.setText(contentResource);
-
     }
-
 
 }
